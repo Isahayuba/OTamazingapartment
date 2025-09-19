@@ -1,0 +1,9 @@
+{
+  "name": "Test User",
+  "email": "testuser@example.com",
+  "phone": "1234567890",
+  "checkin": "2024-07-01",
+  "checkout": "2024-07-05",
+  "guests": 2,
+  "requests": "None"
+}

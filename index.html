@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Experience luxury and comfort at OTamazing Apartments. Book your perfect stay with modern amenities and exceptional service." />
+    <title>OTamazing Apartments - Luxury Living & Online Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>OTamazing Apartments</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to OTamazing Apartment</h2>
+                <p>Discover luxury living in the heart of the city. Your perfect stay awaits with world-class amenities and exceptional service.</p>
+                <a href="#booking" class="cta-button">Book Your Stay</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About OTamazing Apartments</h2>
+                <p>OTamazing Apartments offers a unique blend of modern luxury and comfort. Our thoughtfully designed spaces provide the perfect retreat for travelers seeking an unforgettable experience. From spacious suites to premium amenities, we ensure every stay is memorable.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>Storey Building</h3>
+                        <p>Each floor has 2 bedrooms, living room, and kitchen</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Concierge Service</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5★</h3>
+                        <p>Guest Rating</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="amenities" class="amenities">
+            <div class="container">
+                <h2>Premium Amenities</h2>
+                <div class="amenities-grid">
+                    <div class="amenity">
+                        <h3>🏠 Fully Furnished</h3>
+                        <p>Move in ready with all essential furniture and appliances</p>
+                    </div>
+                    <div class="amenity">
+                        <h3>❄️ Air Conditioning</h3>
+                        <p>Climate-controlled comfort in every room</p>
+                    </div>
+                    <div class="amenity">
+                        <h3>🌐 Free Internet Connection</h3>
+                        <p>High-speed WiFi included for all guests</p>
+                    </div>
+                    <div class="amenity">
+                        <h3>☀️ Solar Power</h3>
+                        <p>Eco-friendly energy solutions for sustainable living</p>
+                    </div>
+                    <div class="amenity">
+                        <h3>🛡️ 24/7 Security</h3>
+                        <p>Round-the-clock security for your peace of mind</p>
+                    </div>
+                    <div class="amenity">
+                        <h3>🅿️ Parking</h3>
+                        <p>Convenient and secure parking facilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <div class="container">
+                <h2>Book Your Perfect Stay</h2>
+                <form id="bookingForm" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests *</label>
+                            <input type="number" id="guests" name="guests" min="1" max="10" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Check-in Date *</label>
+                            <input type="date" id="checkin" name="checkin" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-out Date *</label>
+                            <input type="date" id="checkout" name="checkout" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" name="requests" rows="4" placeholder="Any special requests or preferences?"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Now</button>
+                </form>
+                <div id="formMessage"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OTamazing Apartments</h3>
+                    <p>Experience luxury and comfort in the heart of the city.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📞 +2347080064731</p>
+                    <p>📧 info@otamazingapartments.com</p>
+                    <p>📍 Ifesowapo Estate, Aliri Junction, Olorunda-Abaa Road, Akobo, Ibadan, Oyo</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected for updates and special offers.</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a> | <a href="https://www.instagram.com/otamazingapartments?igsh=amRhdnE4dTQ2ZXR5">Instagram</a> | <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OTamazing Apartments. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
